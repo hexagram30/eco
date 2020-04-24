@@ -12,6 +12,7 @@ edition = "2018"
 name = "hxgm30eco"
 
 [dependencies]
+image = "0.23.4"
 image-data = "0.1.0"
 log = "0.4.8"
 ron = "0.5.1"
