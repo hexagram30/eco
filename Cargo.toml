@@ -1,0 +1,19 @@
+[package]
+name = "hxgm30-eco"
+version = "0.1.0"
+license = "Apache-2.0"
+authors = ["Duncan McGreggor <duncan@cnbb.games>"]
+repository = "https://github.com/hexagram30/eco"
+documentation = "https://docs.rs/hxgm30-eco/"
+exclude = ["/.github", "/resources", ".gitignore"]
+edition = "2018"
+
+[lib]
+name = "hxgm30eco"
+
+[dependencies]
+image-data = "0.1.0"
+log = "0.4.8"
+ron = "0.5.1"
+serde = { version = "1", features = ["serde_derive"] }
+twyg = "0.1.7"
