@@ -14,7 +14,11 @@ name = "hxgm30eco"
 [dependencies]
 image = "0.23.4"
 image-data = "0.1.0"
+libmath = "0.2.1"
 log = "0.4.8"
+rand = "0.7"
+rand_distr = "0.2.2"
+rand_pcg = "0.2.1"
 ron = "0.5.1"
 serde = { version = "1", features = ["serde_derive"] }
 twyg = "0.1.7"

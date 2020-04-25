@@ -15,6 +15,8 @@ jobs:
       run: cargo test
     - name: Run biome example (tiny)
       run: cargo run --example=biomes-tiny
+    - name: Run tile example (normal distribution)
+      run: cargo run --example=tile
     - name: Notify CI/CD Slack Channel
       uses: innocarpe/actions-slack@v1
       with:
